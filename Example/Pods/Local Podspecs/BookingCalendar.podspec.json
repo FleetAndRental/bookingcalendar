@@ -1,0 +1,35 @@
+{
+  "name": "BookingCalendar",
+  "version": "0.1.0",
+  "summary": "Calendar for displaying bookings.",
+  "description": "This BookingCalendar provides a calendar to display your data in different configurations like day, month or week.",
+  "homepage": "https://github.com/FleetAndRental/bookingcalendar",
+  "screenshots": [
+    "https://fahrzeug-vermietung.app/wp-content/uploads/2024/12/AppStore_iPad_2.0.1_calendar_de-scaled.jpg",
+    "https://fahrzeug-vermietung.app/wp-content/uploads/2025/10/AppStore_iPhone_2.3.1_calendar_de-scaled.jpg"
+  ],
+  "license": {
+    "type": "GPL v3",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Fleet and Rental Software GmbH": "github@fleet-and-rental.app"
+  },
+  "source": {
+    "git": "https://github.com/FleetAndRental/bookingcalendar.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://www.instagram.com/fleet_and_rental_app/",
+  "swift_versions": "5",
+  "platforms": {
+    "ios": "16.2"
+  },
+  "source_files": "BookingCalendar/**/*.swift",
+  "resources": "BookingCalendar/**/*.{json,png,jpeg,jpg,storyboard,xib,xcassets,colorset,strings,pdf,rtf,plain,plist}",
+  "dependencies": {
+    "PromiseKit": [
+      "~> 8.2.0"
+    ]
+  },
+  "swift_version": "5"
+}

@@ -1,0 +1,1313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01833C28E575171786601C49EACC04BD /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAC3A6A522C74F5962832E56C1393E8 /* AnyPromise.swift */; };
+		024A697B97848CEC1D20151F3F0707B3 /* Guarantee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38923DF56D24D4BF8B91351CED183054 /* Guarantee.swift */; };
+		04C32100738B24282950657F0D6158C0 /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E9C5110C341EF58CB4D31DB14EF21 /* dispatch_promise.m */; };
+		07A48C1586810C08C5376409BDE30B81 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BFECDF1973C898F1752C4BC7326172 /* when.swift */; };
+		08F278C74584A90C3D435BAC00C2D2D9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39690BBB5886E577992E05FCF4CB89CE /* ReplaceMe.swift */; };
+		0BB68DF6B4C1032F307098DFAA053B73 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9D4189F36942DF4CC7E256E155E0CF /* Configuration.swift */; };
+		1718303C019520C78C6DB8844F604FB0 /* BookingCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F36CA740A438E09ADCE4FB8DA1F454E /* BookingCalendar-dummy.m */; };
+		199BBB2A163C7583C5A0AC7DF9821324 /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 83067DA6D8F5AB17C48531E46EFA37AA /* NSNotificationCenter+AnyPromise.m */; };
+		1D2430298632C6A557D5172CED28AEF6 /* UIViewPropertyAnimator+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F81458600E6E835C166C3BE5DE4A8D7 /* UIViewPropertyAnimator+Promise.swift */; };
+		1E8345736FC937497CA788340607DAA5 /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E1856FBDDF2AAFD57DDF88FBA248F6 /* when.m */; };
+		1E8DCBCFA396C5A70B28C7904E5A44C8 /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C659EFAA17F0C3638BAE627DEAE8E6E4 /* NSNotificationCenter+Promise.swift */; };
+		1EEE6827AFA7DAA69BCB826147C825F3 /* UIViewController+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 61844B3024A407FAA3462B2CF2D63839 /* UIViewController+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2251FC1B111653F46BAC52F3D45A38D0 /* UIView+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADF2F44D9F07B1D11303652BA187B7F /* UIView+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		230BBDB19173658835F99D4C471723A4 /* PMKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B0476B3931B98B46C4BBE9BB2CD791 /* PMKUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DBF2173B8F26D734683418D6E596019 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0D4627BB18D76BB217693A2B0AE05A /* Combine.swift */; };
+		3418A3EB4ED7161415425EF2A7B33506 /* UIView+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = D274583F3450EDBE7D7D80967E5A9C26 /* UIView+AnyPromise.m */; };
+		343D27C0AD65D145EE15A8FFEC8731F3 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9202162134BF2483403899CD76101AD3 /* after.swift */; };
+		34C40979ABCD6EB0031B2EF7F98CF5F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		3835D461B636FF1C60E92D01FA9C6008 /* PromiseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BCC670CDFAD1E9760E268E74276D82A /* PromiseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		384B0C947E34300946800B1454C02795 /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 11EDEF20A23B09245829D97B71594E6B /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE45A1386B6F57D20A97BD46F70768D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		457582523EFEF7BFF372D3F3E8804D62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		4847C060122F9FCE85971B1B65AF4280 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711FDDA5E2B97C782F3B4E9736795E2D /* Promise.swift */; };
+		4C8A10F6D3D8572C420CEB0137F51B54 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DCFAA3611A44CE2AA5F08F27CCDB45 /* Error.swift */; };
+		54DE7EF0DAFA8AC4B7AF629D784562CD /* NSURLSession+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F55DB66793E4794716FFF8BE4B7B2 /* NSURLSession+AnyPromise.m */; };
+		59B6FFF9C19451FD2BA745FACD27C034 /* Pods-BookingCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB7D449FA13E2AC60C7B9E814A0DB28 /* Pods-BookingCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BF9E5C5628AD2A57B28A727E8A27A5B /* UIViewController+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3D81AB6A1DE99CBF79D707B65C5A67 /* UIViewController+AnyPromise.m */; };
+		5D52BC89FD560BF03E231955CC5A5073 /* hang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8C370C423ECE350E18D90F0B00BE1 /* hang.swift */; };
+		5F7F5CCE9CEC99809FBE9C016BD8FF27 /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFD662F94EA33B168F19EB288764D04 /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64B26F9C922582BC57E0DB700214EF10 /* Process+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2F083DF2214F2656B8A388833F609 /* Process+Promise.swift */; };
+		6A4DE164963B5068DEC38D7BC4FE9D6D /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E83E3DC7A0344E93E420D2E804C772 /* NSObject+Promise.swift */; };
+		74847C81A90C8AD5C968F728DCF4F93C /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E622999A263D4388D0FDFBC95BAFD77 /* join.m */; };
+		7CDBDDFBF754AD060120484E4D01A537 /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9D64C30E0DF4C8EC7BE31AC91ACC86 /* AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80A12193BB0FA3687A331EAAB9968110 /* race.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD06FE807B3C99E88915314C2241C6E /* race.m */; };
+		81250B23C323ED46A844045BE8518DF7 /* Pods-BookingCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB76DAC995908F6447F8A8BB4E466C8A /* Pods-BookingCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847757F5AA9889B42856E89AF3A79FB1 /* Catchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E246A623ABA66F4DD4121915258B12 /* Catchable.swift */; };
+		95D4EC84133007C644B05ACE7A98DCC4 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895AC3F7C338170CEF4810D1621E19E0 /* Deprecations.swift */; };
+		96CB4F7BDFBE5317C6CDFC75A2A2A298 /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 96519361E7E9645A3A5C778C2076A49D /* PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98AEA5D52FA0D2E393C4CEC84488DDB5 /* NSURLSession+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = E17B87AAB9043D33C41B1CEAAC8A4943 /* NSURLSession+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F5558B577B6F70D2C6D572E7B47BF93 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC6AF6A0D43C6F1BFB996FF8169380 /* LogEvent.swift */; };
+		A2F1EFE2592295F13061E1727B536841 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EACA94C057AECD6AEA385CE4FF5A18 /* Async.swift */; };
+		A4E78B68FE9A5A174C43F0BB5D4D9715 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2EFAEB288AAB9165A8FEA7B4CFC249 /* AnyPromise.m */; };
+		AD859E93A35A2D78BF074E5827D7FC1D /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86AE105D198C48E43498EE4F9194E2D /* afterlife.swift */; };
+		B32E6E2AE8A114EDF6210CB52654C36A /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D0D177EDCF0BD2233D5106564896C /* Box.swift */; };
+		BF8ED06C8FD6F1D2609F6170BE7741AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		C3F298DC281E592E1CB25BA4576BF563 /* Pods-BookingCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44591D7427EE4C7D54ECC9C5BA8BF1AA /* Pods-BookingCalendar_Tests-dummy.m */; };
+		D11622F5CA70FD85AF7398EA5016D8C0 /* Pods-BookingCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC77DB6F463C90C0D2B639C7451897D /* Pods-BookingCalendar_Example-dummy.m */; };
+		D3D03805ECFF6C992AD69FDE81B1DE62 /* Thenable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4AE61DF76E56F7A174C7548BE22FB3 /* Thenable.swift */; };
+		DE6EC18AE0C1D3EC81C5286F23EBF05F /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 704131C6F83C922F7EC4D055CA0E8E66 /* NSTask+AnyPromise.m */; };
+		DFC456742284FA003C01E824AFA7F787 /* BookingCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0590F696FED6A982152E67291D38C7F /* BookingCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E41BD1FAAEB5E8B7A402E914541A6C89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		E479338EA5ED4CCEC3964A784EBF8860 /* CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE20914503DC910DAD5AFE45AF169DF /* CustomStringConvertible.swift */; };
+		E64BCC889B6FE8599BB167D752851557 /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642D3CF6912F8DEA91267F6413D42C9F /* NSURLSession+Promise.swift */; };
+		E9BF5BCDD1EFCAFF6EFBB193BEC589F6 /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F77800F2297E8EE80238D422FD3A69B /* hang.m */; };
+		EB3ADB42D7E88A03108DA179DFCD7CF3 /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = 32521CE444A14C343B79057DA37F8BFC /* fwd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC2E04BE2EC65A1AD42408696EBDCE8D /* firstly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B075A55A2336404F10B6712064CE7864 /* firstly.swift */; };
+		EE10777A9C957ED83AAABCEC8E7325AC /* UIView+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D551840FC96E848331E2B0EA002A45B /* UIView+Promise.swift */; };
+		EF07900716F3EA5E385E2C6C7FAD09A0 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233C22F18802530EDE7B4E929860F82 /* race.swift */; };
+		F135A4DD0C9550255C70D6A4DB6ACF88 /* PMKFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B94A204D79C6008057C2F100773858 /* PMKFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1375D7E7F301201D171584FA553DB10 /* PromiseKit-PromiseKit_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = 1F950DAE3ABA5C3F27B58B9E011322DC /* PromiseKit-PromiseKit_Privacy */; };
+		F22ED2F87E230BE383D89C892A728976 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DBE02F51EB93098E5E16DF7FA53FA553 /* PrivacyInfo.xcprivacy */; };
+		F250384BC47B429734B03432744D1BB2 /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE3E23E68D45B609B54DA20E0F806F /* after.m */; };
+		F8AFD88C531D9D8E05E37BD1C4B1F738 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88014FD5049C1C7FC7310BC57E22052 /* Resolver.swift */; };
+		FBF37566F67C21229401F01D638094CE /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8858CF5852207F7F214D8A1761032B43 /* PromiseKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B583AA3E9ADDE5DF25EDB19A7DC636A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC7F0EA0A5B82F2A1971AAFF0D213B29;
+			remoteInfo = "Pods-BookingCalendar_Example";
+		};
+		723B2AD62BF0620891033B38C0F14E00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
+			remoteInfo = PromiseKit;
+		};
+		8145E536694FEA4FAC20711336F6AAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
+			remoteInfo = PromiseKit;
+		};
+		C2D128B36996826CC1F1D8B5F1BBEFAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44BF999026721664868BB27275B3253E;
+			remoteInfo = BookingCalendar;
+		};
+		FC129C061AF65F973CEBE2D0F558F2F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9F5B8B51450C3E9069D051D1FA25BE;
+			remoteInfo = "PromiseKit-PromiseKit_Privacy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F8C370C423ECE350E18D90F0B00BE1 /* hang.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = hang.swift; path = Sources/hang.swift; sourceTree = "<group>"; };
+		047E9C5110C341EF58CB4D31DB14EF21 /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
+		0BE7DB21BDE802DDA6A5A97ADAE21063 /* BookingCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BookingCalendar-Info.plist"; sourceTree = "<group>"; };
+		11EDEF20A23B09245829D97B71594E6B /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
+		13B0476B3931B98B46C4BBE9BB2CD791 /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
+		19DCFAA3611A44CE2AA5F08F27CCDB45 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		1ABE0075449812F7E598EDDFFE16685E /* BookingCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BookingCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F36CA740A438E09ADCE4FB8DA1F454E /* BookingCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BookingCalendar-dummy.m"; sourceTree = "<group>"; };
+		1F77800F2297E8EE80238D422FD3A69B /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
+		1F950DAE3ABA5C3F27B58B9E011322DC /* PromiseKit-PromiseKit_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "PromiseKit-PromiseKit_Privacy"; path = PromiseKit_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BB8A610AB3D9063EA5366B80AC9AE9 /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromiseKit.modulemap; sourceTree = "<group>"; };
+		2AE20914503DC910DAD5AFE45AF169DF /* CustomStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomStringConvertible.swift; path = Sources/CustomStringConvertible.swift; sourceTree = "<group>"; };
+		31B817BFE6F318BCA651475B83932A52 /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
+		32521CE444A14C343B79057DA37F8BFC /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/fwd.h; sourceTree = "<group>"; };
+		329C46D2AB3137E01083A35C5E378D9B /* Pods-BookingCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookingCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		38923DF56D24D4BF8B91351CED183054 /* Guarantee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Guarantee.swift; path = Sources/Guarantee.swift; sourceTree = "<group>"; };
+		39690BBB5886E577992E05FCF4CB89CE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BookingCalendar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		3B2EFAEB288AAB9165A8FEA7B4CFC249 /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
+		3E8878E6BBAAC331422F8A6E0EE32F20 /* Pods-BookingCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookingCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		40A6D6D9450E023FF01C23DBFC14154F /* Pods-BookingCalendar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookingCalendar_Example-Info.plist"; sourceTree = "<group>"; };
+		41EAB150AB6370D12ACB118D9DCC0302 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		431735FDB4F4F995D0D5171F07358587 /* PromiseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.release.xcconfig; sourceTree = "<group>"; };
+		44591D7427EE4C7D54ECC9C5BA8BF1AA /* Pods-BookingCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookingCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
+		46AE7C2167EEBEEEECBCB2621EC41DA1 /* Pods-BookingCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookingCalendar_Tests.modulemap"; sourceTree = "<group>"; };
+		4ADF2F44D9F07B1D11303652BA187B7F /* UIView+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.h"; sourceTree = "<group>"; };
+		4BCC670CDFAD1E9760E268E74276D82A /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
+		4D9D64C30E0DF4C8EC7BE31AC91ACC86 /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
+		51758CBD93175FA0AC232FC5B05B73C1 /* Pods-BookingCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookingCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54BFECDF1973C898F1752C4BC7326172 /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
+		5B270F976FC981482E2190FE03565E33 /* ResourceBundle-PromiseKit_Privacy-PromiseKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PromiseKit_Privacy-PromiseKit-Info.plist"; sourceTree = "<group>"; };
+		5C9D4189F36942DF4CC7E256E155E0CF /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Configuration.swift; sourceTree = "<group>"; };
+		5D2B88BD4440847ABB94584CA85AB85B /* Pods-BookingCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookingCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5D551840FC96E848331E2B0EA002A45B /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
+		5EEE00CFDF12EA0635266794AD8E0932 /* Pods-BookingCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookingCalendar_Example.modulemap"; sourceTree = "<group>"; };
+		5F0F55DB66793E4794716FFF8BE4B7B2 /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
+		61844B3024A407FAA3462B2CF2D63839 /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
+		642D3CF6912F8DEA91267F6413D42C9F /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
+		6B0D4627BB18D76BB217693A2B0AE05A /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Sources/Combine.swift; sourceTree = "<group>"; };
+		6B3D81AB6A1DE99CBF79D707B65C5A67 /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
+		6E622999A263D4388D0FDFBC95BAFD77 /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
+		704131C6F83C922F7EC4D055CA0E8E66 /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTask+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.m"; sourceTree = "<group>"; };
+		711FDDA5E2B97C782F3B4E9736795E2D /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
+		72EACA94C057AECD6AEA385CE4FF5A18 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Async.swift; sourceTree = "<group>"; };
+		76E83E3DC7A0344E93E420D2E804C772 /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
+		79E1856FBDDF2AAFD57DDF88FBA248F6 /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
+		7DB7D449FA13E2AC60C7B9E814A0DB28 /* Pods-BookingCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookingCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
+		7EFE3E23E68D45B609B54DA20E0F806F /* after.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = after.m; path = Sources/after.m; sourceTree = "<group>"; };
+		83067DA6D8F5AB17C48531E46EFA37AA /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
+		8858CF5852207F7F214D8A1761032B43 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
+		88E246A623ABA66F4DD4121915258B12 /* Catchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catchable.swift; path = Sources/Catchable.swift; sourceTree = "<group>"; };
+		895AC3F7C338170CEF4810D1621E19E0 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
+		8DAC3A6A522C74F5962832E56C1393E8 /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
+		8FC77DB6F463C90C0D2B639C7451897D /* Pods-BookingCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookingCalendar_Example-dummy.m"; sourceTree = "<group>"; };
+		9202162134BF2483403899CD76101AD3 /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
+		96519361E7E9645A3A5C778C2076A49D /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
+		9AD06FE807B3C99E88915314C2241C6E /* race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = race.m; path = Sources/race.m; sourceTree = "<group>"; };
+		9BC7C75374B9D613C898EECB8E3535E0 /* Pods-BookingCalendar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookingCalendar_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F81458600E6E835C166C3BE5DE4A8D7 /* UIViewPropertyAnimator+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewPropertyAnimator+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewPropertyAnimator+Promise.swift"; sourceTree = "<group>"; };
+		A0590F696FED6A982152E67291D38C7F /* BookingCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BookingCalendar-umbrella.h"; sourceTree = "<group>"; };
+		A0F878831AD47D3C91E7A4266B983F35 /* Pods-BookingCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookingCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ABFD662F94EA33B168F19EB288764D04 /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTask+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.h"; sourceTree = "<group>"; };
+		AC475485FEC614DDFE3387BB569121D8 /* BookingCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BookingCalendar.modulemap; sourceTree = "<group>"; };
+		AEB26CC542BC78FD376A0D02FB69E023 /* Pods-BookingCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookingCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B075A55A2336404F10B6712064CE7864 /* firstly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = firstly.swift; path = Sources/firstly.swift; sourceTree = "<group>"; };
+		B19D0D177EDCF0BD2233D5106564896C /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		B8713A8A962BC9E315E79692584410C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BF74FE4F8A2D42731F624819BBBB6533 /* BookingCalendar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BookingCalendar; path = BookingCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B94A204D79C6008057C2F100773858 /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
+		C659EFAA17F0C3638BAE627DEAE8E6E4 /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotificationCenter+Promise.swift"; path = "Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
+		C941872AC2B2442A6973908EF640AC71 /* BookingCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BookingCalendar.release.xcconfig; sourceTree = "<group>"; };
+		CCAAF6279A9D9444EAC8161557A77D81 /* PromiseKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromiseKit-Info.plist"; sourceTree = "<group>"; };
+		D233C22F18802530EDE7B4E929860F82 /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D274583F3450EDBE7D7D80967E5A9C26 /* UIView+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.m"; sourceTree = "<group>"; };
+		D5FC6AF6A0D43C6F1BFB996FF8169380 /* LogEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogEvent.swift; path = Sources/LogEvent.swift; sourceTree = "<group>"; };
+		D9C52E7CFAF8C485CD76010EB389654A /* PromiseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.debug.xcconfig; sourceTree = "<group>"; };
+		DBE02F51EB93098E5E16DF7FA53FA553 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DECEAF8F87C5674A96A645C13F564B3D /* Pods-BookingCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookingCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E17B87AAB9043D33C41B1CEAAC8A4943 /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
+		E3657C736F687823BF90B7C510F34225 /* Pods-BookingCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookingCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3AC295F36BDECF0C5CDBFAE5BE460E0 /* Pods-BookingCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookingCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E5199E4581722076B8D7B4ADECAB3391 /* BookingCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BookingCalendar-prefix.pch"; sourceTree = "<group>"; };
+		E9AF652F1DD43CF70E8C983B24CDD8AD /* Pods-BookingCalendar_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BookingCalendar_Example"; path = Pods_BookingCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EEE2F083DF2214F2656B8A388833F609 /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
+		F29B69AC972EBE95AA86022AE35F2556 /* BookingCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BookingCalendar.debug.xcconfig; sourceTree = "<group>"; };
+		F86AE105D198C48E43498EE4F9194E2D /* afterlife.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = afterlife.swift; path = Extensions/Foundation/Sources/afterlife.swift; sourceTree = "<group>"; };
+		F88014FD5049C1C7FC7310BC57E22052 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
+		F8C10B5904269739CEF6D74E184E4ED1 /* Pods-BookingCalendar_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BookingCalendar_Tests"; path = Pods_BookingCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB76DAC995908F6447F8A8BB4E466C8A /* Pods-BookingCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookingCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FC4AE61DF76E56F7A174C7548BE22FB3 /* Thenable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thenable.swift; path = Sources/Thenable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23C5C51F0AA0E63BE3493B39EA2D23AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410A2F570E94FA8801A7BA6CE1F5AC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE45A1386B6F57D20A97BD46F70768D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4205F8ED0B1061C1DA4097EC3474C08D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41BD1FAAEB5E8B7A402E914541A6C89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798877E39C1F77B69665E22BE89DE7E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457582523EFEF7BFF372D3F3E8804D62 /* Foundation.framework in Frameworks */,
+				BF8ED06C8FD6F1D2609F6170BE7741AA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE9EBBB713109BC1008AE4D9B3516CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C40979ABCD6EB0031B2EF7F98CF5F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22CF33E61A374F611B979EF46179ADFA /* BookingCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				39690BBB5886E577992E05FCF4CB89CE /* ReplaceMe.swift */,
+				3C9F71C11C3261D497078EBFD82A660E /* Pod */,
+				46ED6D2EF5C0467477B35E6EB04A0BF2 /* Support Files */,
+			);
+			name = BookingCalendar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		26A723278A69049F25FDA35DDBE1C907 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DBE02F51EB93098E5E16DF7FA53FA553 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3C3CD37205B2AF29F55700C2841C48A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF74FE4F8A2D42731F624819BBBB6533 /* BookingCalendar */,
+				E9AF652F1DD43CF70E8C983B24CDD8AD /* Pods-BookingCalendar_Example */,
+				F8C10B5904269739CEF6D74E184E4ED1 /* Pods-BookingCalendar_Tests */,
+				002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit */,
+				1F950DAE3ABA5C3F27B58B9E011322DC /* PromiseKit-PromiseKit_Privacy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C9F71C11C3261D497078EBFD82A660E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1ABE0075449812F7E598EDDFFE16685E /* BookingCalendar.podspec */,
+				B8713A8A962BC9E315E79692584410C0 /* LICENSE */,
+				41EAB150AB6370D12ACB118D9DCC0302 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3EB6D0E1137B4E89884B2127106DFFA1 /* Pods-BookingCalendar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				46AE7C2167EEBEEEECBCB2621EC41DA1 /* Pods-BookingCalendar_Tests.modulemap */,
+				A0F878831AD47D3C91E7A4266B983F35 /* Pods-BookingCalendar_Tests-acknowledgements.markdown */,
+				E3657C736F687823BF90B7C510F34225 /* Pods-BookingCalendar_Tests-acknowledgements.plist */,
+				44591D7427EE4C7D54ECC9C5BA8BF1AA /* Pods-BookingCalendar_Tests-dummy.m */,
+				9BC7C75374B9D613C898EECB8E3535E0 /* Pods-BookingCalendar_Tests-Info.plist */,
+				FB76DAC995908F6447F8A8BB4E466C8A /* Pods-BookingCalendar_Tests-umbrella.h */,
+				3E8878E6BBAAC331422F8A6E0EE32F20 /* Pods-BookingCalendar_Tests.debug.xcconfig */,
+				AEB26CC542BC78FD376A0D02FB69E023 /* Pods-BookingCalendar_Tests.release.xcconfig */,
+			);
+			name = "Pods-BookingCalendar_Tests";
+			path = "Target Support Files/Pods-BookingCalendar_Tests";
+			sourceTree = "<group>";
+		};
+		46ED6D2EF5C0467477B35E6EB04A0BF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC475485FEC614DDFE3387BB569121D8 /* BookingCalendar.modulemap */,
+				1F36CA740A438E09ADCE4FB8DA1F454E /* BookingCalendar-dummy.m */,
+				0BE7DB21BDE802DDA6A5A97ADAE21063 /* BookingCalendar-Info.plist */,
+				E5199E4581722076B8D7B4ADECAB3391 /* BookingCalendar-prefix.pch */,
+				A0590F696FED6A982152E67291D38C7F /* BookingCalendar-umbrella.h */,
+				F29B69AC972EBE95AA86022AE35F2556 /* BookingCalendar.debug.xcconfig */,
+				C941872AC2B2442A6973908EF640AC71 /* BookingCalendar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BookingCalendar";
+			sourceTree = "<group>";
+		};
+		4D1B8BA2CF5C02FEFD5C14F40D77C61E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D516EFC98749EC8555D1475BB6886D5 /* PromiseKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CC3A747C23704E3F0657F0176BBCF9E /* Pods-BookingCalendar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5EEE00CFDF12EA0635266794AD8E0932 /* Pods-BookingCalendar_Example.modulemap */,
+				51758CBD93175FA0AC232FC5B05B73C1 /* Pods-BookingCalendar_Example-acknowledgements.markdown */,
+				DECEAF8F87C5674A96A645C13F564B3D /* Pods-BookingCalendar_Example-acknowledgements.plist */,
+				8FC77DB6F463C90C0D2B639C7451897D /* Pods-BookingCalendar_Example-dummy.m */,
+				5D2B88BD4440847ABB94584CA85AB85B /* Pods-BookingCalendar_Example-frameworks.sh */,
+				40A6D6D9450E023FF01C23DBFC14154F /* Pods-BookingCalendar_Example-Info.plist */,
+				7DB7D449FA13E2AC60C7B9E814A0DB28 /* Pods-BookingCalendar_Example-umbrella.h */,
+				329C46D2AB3137E01083A35C5E378D9B /* Pods-BookingCalendar_Example.debug.xcconfig */,
+				E3AC295F36BDECF0C5CDBFAE5BE460E0 /* Pods-BookingCalendar_Example.release.xcconfig */,
+			);
+			name = "Pods-BookingCalendar_Example";
+			path = "Target Support Files/Pods-BookingCalendar_Example";
+			sourceTree = "<group>";
+		};
+		7D516EFC98749EC8555D1475BB6886D5 /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				AF08630D5472FA365E2E052394F36AEE /* CorePromise */,
+				F5FB835D06536C129C04E08DE3172056 /* Foundation */,
+				26A723278A69049F25FDA35DDBE1C907 /* Resources */,
+				99F5447F0B170573145EE9161DB3BAA4 /* Support Files */,
+				8A8B992086EC4FA8CACE3EE429B242C9 /* UIKit */,
+			);
+			name = PromiseKit;
+			path = PromiseKit;
+			sourceTree = "<group>";
+		};
+		8001DFD60FFAC91593E2230E2799C950 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC3A747C23704E3F0657F0176BBCF9E /* Pods-BookingCalendar_Example */,
+				3EB6D0E1137B4E89884B2127106DFFA1 /* Pods-BookingCalendar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8A8B992086EC4FA8CACE3EE429B242C9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				13B0476B3931B98B46C4BBE9BB2CD791 /* PMKUIKit.h */,
+				4ADF2F44D9F07B1D11303652BA187B7F /* UIView+AnyPromise.h */,
+				D274583F3450EDBE7D7D80967E5A9C26 /* UIView+AnyPromise.m */,
+				5D551840FC96E848331E2B0EA002A45B /* UIView+Promise.swift */,
+				61844B3024A407FAA3462B2CF2D63839 /* UIViewController+AnyPromise.h */,
+				6B3D81AB6A1DE99CBF79D707B65C5A67 /* UIViewController+AnyPromise.m */,
+				9F81458600E6E835C166C3BE5DE4A8D7 /* UIViewPropertyAnimator+Promise.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		99F5447F0B170573145EE9161DB3BAA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23BB8A610AB3D9063EA5366B80AC9AE9 /* PromiseKit.modulemap */,
+				8858CF5852207F7F214D8A1761032B43 /* PromiseKit-dummy.m */,
+				CCAAF6279A9D9444EAC8161557A77D81 /* PromiseKit-Info.plist */,
+				31B817BFE6F318BCA651475B83932A52 /* PromiseKit-prefix.pch */,
+				4BCC670CDFAD1E9760E268E74276D82A /* PromiseKit-umbrella.h */,
+				D9C52E7CFAF8C485CD76010EB389654A /* PromiseKit.debug.xcconfig */,
+				431735FDB4F4F995D0D5171F07358587 /* PromiseKit.release.xcconfig */,
+				5B270F976FC981482E2190FE03565E33 /* ResourceBundle-PromiseKit_Privacy-PromiseKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PromiseKit";
+			sourceTree = "<group>";
+		};
+		A930B986F9BF8110188D1C78CB3D4947 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22CF33E61A374F611B979EF46179ADFA /* BookingCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AF08630D5472FA365E2E052394F36AEE /* CorePromise */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE3E23E68D45B609B54DA20E0F806F /* after.m */,
+				9202162134BF2483403899CD76101AD3 /* after.swift */,
+				4D9D64C30E0DF4C8EC7BE31AC91ACC86 /* AnyPromise.h */,
+				3B2EFAEB288AAB9165A8FEA7B4CFC249 /* AnyPromise.m */,
+				8DAC3A6A522C74F5962832E56C1393E8 /* AnyPromise.swift */,
+				72EACA94C057AECD6AEA385CE4FF5A18 /* Async.swift */,
+				B19D0D177EDCF0BD2233D5106564896C /* Box.swift */,
+				88E246A623ABA66F4DD4121915258B12 /* Catchable.swift */,
+				6B0D4627BB18D76BB217693A2B0AE05A /* Combine.swift */,
+				5C9D4189F36942DF4CC7E256E155E0CF /* Configuration.swift */,
+				2AE20914503DC910DAD5AFE45AF169DF /* CustomStringConvertible.swift */,
+				895AC3F7C338170CEF4810D1621E19E0 /* Deprecations.swift */,
+				047E9C5110C341EF58CB4D31DB14EF21 /* dispatch_promise.m */,
+				19DCFAA3611A44CE2AA5F08F27CCDB45 /* Error.swift */,
+				B075A55A2336404F10B6712064CE7864 /* firstly.swift */,
+				32521CE444A14C343B79057DA37F8BFC /* fwd.h */,
+				38923DF56D24D4BF8B91351CED183054 /* Guarantee.swift */,
+				1F77800F2297E8EE80238D422FD3A69B /* hang.m */,
+				01F8C370C423ECE350E18D90F0B00BE1 /* hang.swift */,
+				6E622999A263D4388D0FDFBC95BAFD77 /* join.m */,
+				D5FC6AF6A0D43C6F1BFB996FF8169380 /* LogEvent.swift */,
+				711FDDA5E2B97C782F3B4E9736795E2D /* Promise.swift */,
+				96519361E7E9645A3A5C778C2076A49D /* PromiseKit.h */,
+				9AD06FE807B3C99E88915314C2241C6E /* race.m */,
+				D233C22F18802530EDE7B4E929860F82 /* race.swift */,
+				F88014FD5049C1C7FC7310BC57E22052 /* Resolver.swift */,
+				FC4AE61DF76E56F7A174C7548BE22FB3 /* Thenable.swift */,
+				79E1856FBDDF2AAFD57DDF88FBA248F6 /* when.m */,
+				54BFECDF1973C898F1752C4BC7326172 /* when.swift */,
+			);
+			name = CorePromise;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A930B986F9BF8110188D1C78CB3D4947 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				4D1B8BA2CF5C02FEFD5C14F40D77C61E /* Pods */,
+				3C3CD37205B2AF29F55700C2841C48A8 /* Products */,
+				8001DFD60FFAC91593E2230E2799C950 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F5FB835D06536C129C04E08DE3172056 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F86AE105D198C48E43498EE4F9194E2D /* afterlife.swift */,
+				11EDEF20A23B09245829D97B71594E6B /* NSNotificationCenter+AnyPromise.h */,
+				83067DA6D8F5AB17C48531E46EFA37AA /* NSNotificationCenter+AnyPromise.m */,
+				C659EFAA17F0C3638BAE627DEAE8E6E4 /* NSNotificationCenter+Promise.swift */,
+				76E83E3DC7A0344E93E420D2E804C772 /* NSObject+Promise.swift */,
+				ABFD662F94EA33B168F19EB288764D04 /* NSTask+AnyPromise.h */,
+				704131C6F83C922F7EC4D055CA0E8E66 /* NSTask+AnyPromise.m */,
+				E17B87AAB9043D33C41B1CEAAC8A4943 /* NSURLSession+AnyPromise.h */,
+				5F0F55DB66793E4794716FFF8BE4B7B2 /* NSURLSession+AnyPromise.m */,
+				642D3CF6912F8DEA91267F6413D42C9F /* NSURLSession+Promise.swift */,
+				C5B94A204D79C6008057C2F100773858 /* PMKFoundation.h */,
+				EEE2F083DF2214F2656B8A388833F609 /* Process+Promise.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52193D24EDA2A9C5D36683B0632337E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC456742284FA003C01E824AFA7F787 /* BookingCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF62FEA9FBFB668585EAFA8BF9D7CD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81250B23C323ED46A844045BE8518DF7 /* Pods-BookingCalendar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C227FFE4513FC6D37C03BFA1ACDA407F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B6FFF9C19451FD2BA745FACD27C034 /* Pods-BookingCalendar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C783EABAA433E7CE114E8D588DDBC269 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDBDDFBF754AD060120484E4D01A537 /* AnyPromise.h in Headers */,
+				EB3ADB42D7E88A03108DA179DFCD7CF3 /* fwd.h in Headers */,
+				384B0C947E34300946800B1454C02795 /* NSNotificationCenter+AnyPromise.h in Headers */,
+				5F7F5CCE9CEC99809FBE9C016BD8FF27 /* NSTask+AnyPromise.h in Headers */,
+				98AEA5D52FA0D2E393C4CEC84488DDB5 /* NSURLSession+AnyPromise.h in Headers */,
+				F135A4DD0C9550255C70D6A4DB6ACF88 /* PMKFoundation.h in Headers */,
+				230BBDB19173658835F99D4C471723A4 /* PMKUIKit.h in Headers */,
+				96CB4F7BDFBE5317C6CDFC75A2A2A298 /* PromiseKit.h in Headers */,
+				3835D461B636FF1C60E92D01FA9C6008 /* PromiseKit-umbrella.h in Headers */,
+				2251FC1B111653F46BAC52F3D45A38D0 /* UIView+AnyPromise.h in Headers */,
+				1EEE6827AFA7DAA69BCB826147C825F3 /* UIViewController+AnyPromise.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A9F5B8B51450C3E9069D051D1FA25BE /* PromiseKit-PromiseKit_Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EA1CD565E6057A94B99DE51E75A171 /* Build configuration list for PBXNativeTarget "PromiseKit-PromiseKit_Privacy" */;
+			buildPhases = (
+				5ECBDAC429BB40A18336C2714D255738 /* Sources */,
+				23C5C51F0AA0E63BE3493B39EA2D23AC /* Frameworks */,
+				0411D91F604973AF5B542C33D023788F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PromiseKit-PromiseKit_Privacy";
+			productName = PromiseKit_Privacy;
+			productReference = 1F950DAE3ABA5C3F27B58B9E011322DC /* PromiseKit-PromiseKit_Privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+		44BF999026721664868BB27275B3253E /* BookingCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C557E0CD8A938BB44B00EA0E05AF6FD8 /* Build configuration list for PBXNativeTarget "BookingCalendar" */;
+			buildPhases = (
+				52193D24EDA2A9C5D36683B0632337E6 /* Headers */,
+				F60DFEA5B07B03B0768BC33891D33922 /* Sources */,
+				410A2F570E94FA8801A7BA6CE1F5AC16 /* Frameworks */,
+				0FDDF1782C6D76E03B48C40F281E2623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02012DC7787B65021CDAFDBA814672A5 /* PBXTargetDependency */,
+			);
+			name = BookingCalendar;
+			productName = BookingCalendar;
+			productReference = BF74FE4F8A2D42731F624819BBBB6533 /* BookingCalendar */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23E804A321B21BBADC63C6142D1DE34 /* Build configuration list for PBXNativeTarget "PromiseKit" */;
+			buildPhases = (
+				C783EABAA433E7CE114E8D588DDBC269 /* Headers */,
+				4E49BA912C4B1C06C6C47F1507725663 /* Sources */,
+				798877E39C1F77B69665E22BE89DE7E7 /* Frameworks */,
+				A689869F889A880A267AA9B29102A33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1AE8962091D670A3BEAA616D100228A /* PBXTargetDependency */,
+			);
+			name = PromiseKit;
+			productName = PromiseKit;
+			productReference = 002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		A87F031FB5AE900927490A13E2CE68FE /* Pods-BookingCalendar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E88BE364CB980A8A6C03FAF2667897 /* Build configuration list for PBXNativeTarget "Pods-BookingCalendar_Tests" */;
+			buildPhases = (
+				BCF62FEA9FBFB668585EAFA8BF9D7CD0 /* Headers */,
+				563BC7CDBB032456F19E98EFD5BAE944 /* Sources */,
+				7BE9EBBB713109BC1008AE4D9B3516CC /* Frameworks */,
+				32572FE891412D0E3ADCBD48908330C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E0914B08EADE04DDBB3031F3FC955B /* PBXTargetDependency */,
+			);
+			name = "Pods-BookingCalendar_Tests";
+			productName = Pods_BookingCalendar_Tests;
+			productReference = F8C10B5904269739CEF6D74E184E4ED1 /* Pods-BookingCalendar_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC7F0EA0A5B82F2A1971AAFF0D213B29 /* Pods-BookingCalendar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAD583BBB704B7245C118E523CEB66A /* Build configuration list for PBXNativeTarget "Pods-BookingCalendar_Example" */;
+			buildPhases = (
+				C227FFE4513FC6D37C03BFA1ACDA407F /* Headers */,
+				C7D1326E6DA9997ED6677FB429BEF9BB /* Sources */,
+				4205F8ED0B1061C1DA4097EC3474C08D /* Frameworks */,
+				F8A2DF524BDE393DC15FDB6997A79A53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B3968432A627454BF28EFE350FEE1B9 /* PBXTargetDependency */,
+				FBE5D254F5079117CDC1F66F1C9D417B /* PBXTargetDependency */,
+			);
+			name = "Pods-BookingCalendar_Example";
+			productName = Pods_BookingCalendar_Example;
+			productReference = E9AF652F1DD43CF70E8C983B24CDD8AD /* Pods-BookingCalendar_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3C3CD37205B2AF29F55700C2841C48A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44BF999026721664868BB27275B3253E /* BookingCalendar */,
+				FC7F0EA0A5B82F2A1971AAFF0D213B29 /* Pods-BookingCalendar_Example */,
+				A87F031FB5AE900927490A13E2CE68FE /* Pods-BookingCalendar_Tests */,
+				7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */,
+				0A9F5B8B51450C3E9069D051D1FA25BE /* PromiseKit-PromiseKit_Privacy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0411D91F604973AF5B542C33D023788F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22ED2F87E230BE383D89C892A728976 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FDDF1782C6D76E03B48C40F281E2623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32572FE891412D0E3ADCBD48908330C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A689869F889A880A267AA9B29102A33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1375D7E7F301201D171584FA553DB10 /* PromiseKit-PromiseKit_Privacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A2DF524BDE393DC15FDB6997A79A53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E49BA912C4B1C06C6C47F1507725663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F250384BC47B429734B03432744D1BB2 /* after.m in Sources */,
+				343D27C0AD65D145EE15A8FFEC8731F3 /* after.swift in Sources */,
+				AD859E93A35A2D78BF074E5827D7FC1D /* afterlife.swift in Sources */,
+				A4E78B68FE9A5A174C43F0BB5D4D9715 /* AnyPromise.m in Sources */,
+				01833C28E575171786601C49EACC04BD /* AnyPromise.swift in Sources */,
+				A2F1EFE2592295F13061E1727B536841 /* Async.swift in Sources */,
+				B32E6E2AE8A114EDF6210CB52654C36A /* Box.swift in Sources */,
+				847757F5AA9889B42856E89AF3A79FB1 /* Catchable.swift in Sources */,
+				2DBF2173B8F26D734683418D6E596019 /* Combine.swift in Sources */,
+				0BB68DF6B4C1032F307098DFAA053B73 /* Configuration.swift in Sources */,
+				E479338EA5ED4CCEC3964A784EBF8860 /* CustomStringConvertible.swift in Sources */,
+				95D4EC84133007C644B05ACE7A98DCC4 /* Deprecations.swift in Sources */,
+				04C32100738B24282950657F0D6158C0 /* dispatch_promise.m in Sources */,
+				4C8A10F6D3D8572C420CEB0137F51B54 /* Error.swift in Sources */,
+				EC2E04BE2EC65A1AD42408696EBDCE8D /* firstly.swift in Sources */,
+				024A697B97848CEC1D20151F3F0707B3 /* Guarantee.swift in Sources */,
+				E9BF5BCDD1EFCAFF6EFBB193BEC589F6 /* hang.m in Sources */,
+				5D52BC89FD560BF03E231955CC5A5073 /* hang.swift in Sources */,
+				74847C81A90C8AD5C968F728DCF4F93C /* join.m in Sources */,
+				9F5558B577B6F70D2C6D572E7B47BF93 /* LogEvent.swift in Sources */,
+				199BBB2A163C7583C5A0AC7DF9821324 /* NSNotificationCenter+AnyPromise.m in Sources */,
+				1E8DCBCFA396C5A70B28C7904E5A44C8 /* NSNotificationCenter+Promise.swift in Sources */,
+				6A4DE164963B5068DEC38D7BC4FE9D6D /* NSObject+Promise.swift in Sources */,
+				DE6EC18AE0C1D3EC81C5286F23EBF05F /* NSTask+AnyPromise.m in Sources */,
+				54DE7EF0DAFA8AC4B7AF629D784562CD /* NSURLSession+AnyPromise.m in Sources */,
+				E64BCC889B6FE8599BB167D752851557 /* NSURLSession+Promise.swift in Sources */,
+				64B26F9C922582BC57E0DB700214EF10 /* Process+Promise.swift in Sources */,
+				4847C060122F9FCE85971B1B65AF4280 /* Promise.swift in Sources */,
+				FBF37566F67C21229401F01D638094CE /* PromiseKit-dummy.m in Sources */,
+				80A12193BB0FA3687A331EAAB9968110 /* race.m in Sources */,
+				EF07900716F3EA5E385E2C6C7FAD09A0 /* race.swift in Sources */,
+				F8AFD88C531D9D8E05E37BD1C4B1F738 /* Resolver.swift in Sources */,
+				D3D03805ECFF6C992AD69FDE81B1DE62 /* Thenable.swift in Sources */,
+				3418A3EB4ED7161415425EF2A7B33506 /* UIView+AnyPromise.m in Sources */,
+				EE10777A9C957ED83AAABCEC8E7325AC /* UIView+Promise.swift in Sources */,
+				5BF9E5C5628AD2A57B28A727E8A27A5B /* UIViewController+AnyPromise.m in Sources */,
+				1D2430298632C6A557D5172CED28AEF6 /* UIViewPropertyAnimator+Promise.swift in Sources */,
+				1E8345736FC937497CA788340607DAA5 /* when.m in Sources */,
+				07A48C1586810C08C5376409BDE30B81 /* when.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563BC7CDBB032456F19E98EFD5BAE944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F298DC281E592E1CB25BA4576BF563 /* Pods-BookingCalendar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECBDAC429BB40A18336C2714D255738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D1326E6DA9997ED6677FB429BEF9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11622F5CA70FD85AF7398EA5016D8C0 /* Pods-BookingCalendar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60DFEA5B07B03B0768BC33891D33922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1718303C019520C78C6DB8844F604FB0 /* BookingCalendar-dummy.m in Sources */,
+				08F278C74584A90C3D435BAC00C2D2D9 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02012DC7787B65021CDAFDBA814672A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
+			targetProxy = 723B2AD62BF0620891033B38C0F14E00 /* PBXContainerItemProxy */;
+		};
+		02E0914B08EADE04DDBB3031F3FC955B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BookingCalendar_Example";
+			target = FC7F0EA0A5B82F2A1971AAFF0D213B29 /* Pods-BookingCalendar_Example */;
+			targetProxy = 1B583AA3E9ADDE5DF25EDB19A7DC636A /* PBXContainerItemProxy */;
+		};
+		7B3968432A627454BF28EFE350FEE1B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BookingCalendar;
+			target = 44BF999026721664868BB27275B3253E /* BookingCalendar */;
+			targetProxy = C2D128B36996826CC1F1D8B5F1BBEFAD /* PBXContainerItemProxy */;
+		};
+		C1AE8962091D670A3BEAA616D100228A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PromiseKit-PromiseKit_Privacy";
+			target = 0A9F5B8B51450C3E9069D051D1FA25BE /* PromiseKit-PromiseKit_Privacy */;
+			targetProxy = FC129C061AF65F973CEBE2D0F558F2F5 /* PBXContainerItemProxy */;
+		};
+		FBE5D254F5079117CDC1F66F1C9D417B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
+			targetProxy = 8145E536694FEA4FAC20711336F6AAE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22E417ABBE13DEB73792935EE8227EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431735FDB4F4F995D0D5171F07358587 /* PromiseKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/PromiseKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				PRODUCT_MODULE_NAME = PromiseKit;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23154B6714A021933B14AF8CF6AAB662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8878E6BBAAC331422F8A6E0EE32F20 /* Pods-BookingCalendar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookingCalendar_Tests/Pods-BookingCalendar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookingCalendar_Tests/Pods-BookingCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29AD759AEFA3E51A97D2F062C8F31B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329C46D2AB3137E01083A35C5E378D9B /* Pods-BookingCalendar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookingCalendar_Example/Pods-BookingCalendar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookingCalendar_Example/Pods-BookingCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		65BDE569408FEF5C392A3C715F4D3178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB26CC542BC78FD376A0D02FB69E023 /* Pods-BookingCalendar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookingCalendar_Tests/Pods-BookingCalendar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookingCalendar_Tests/Pods-BookingCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B6EC07BF8CFDEB065C59AB858F845A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C941872AC2B2442A6973908EF640AC71 /* BookingCalendar.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BookingCalendar/BookingCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BookingCalendar/BookingCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BookingCalendar/BookingCalendar.modulemap";
+				PRODUCT_MODULE_NAME = BookingCalendar;
+				PRODUCT_NAME = BookingCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C56B85AC3A747BEFFCBE91DD28A9981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29B69AC972EBE95AA86022AE35F2556 /* BookingCalendar.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BookingCalendar/BookingCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BookingCalendar/BookingCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BookingCalendar/BookingCalendar.modulemap";
+				PRODUCT_MODULE_NAME = BookingCalendar;
+				PRODUCT_NAME = BookingCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA45B093C2EFCBB84AE04C75C0922E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C52E7CFAF8C485CD76010EB389654A /* PromiseKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PromiseKit";
+				IBSC_MODULE = PromiseKit;
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/ResourceBundle-PromiseKit_Privacy-PromiseKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = PromiseKit_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E3FFE7022843F9B43AFC685D4B248A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AC295F36BDECF0C5CDBFAE5BE460E0 /* Pods-BookingCalendar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookingCalendar_Example/Pods-BookingCalendar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookingCalendar_Example/Pods-BookingCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB697DFB76D1629D78ED4321C9417FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431735FDB4F4F995D0D5171F07358587 /* PromiseKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PromiseKit";
+				IBSC_MODULE = PromiseKit;
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/ResourceBundle-PromiseKit_Privacy-PromiseKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = PromiseKit_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FFE323B5796CEF10D486EA7CD646267C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C52E7CFAF8C485CD76010EB389654A /* PromiseKit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/PromiseKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				PRODUCT_MODULE_NAME = PromiseKit;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E88BE364CB980A8A6C03FAF2667897 /* Build configuration list for PBXNativeTarget "Pods-BookingCalendar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23154B6714A021933B14AF8CF6AAB662 /* Debug */,
+				65BDE569408FEF5C392A3C715F4D3178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EA1CD565E6057A94B99DE51E75A171 /* Build configuration list for PBXNativeTarget "PromiseKit-PromiseKit_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA45B093C2EFCBB84AE04C75C0922E4C /* Debug */,
+				EB697DFB76D1629D78ED4321C9417FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAD583BBB704B7245C118E523CEB66A /* Build configuration list for PBXNativeTarget "Pods-BookingCalendar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AD759AEFA3E51A97D2F062C8F31B45 /* Debug */,
+				E3FFE7022843F9B43AFC685D4B248A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C557E0CD8A938BB44B00EA0E05AF6FD8 /* Build configuration list for PBXNativeTarget "BookingCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C56B85AC3A747BEFFCBE91DD28A9981 /* Debug */,
+				7B6EC07BF8CFDEB065C59AB858F845A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23E804A321B21BBADC63C6142D1DE34 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE323B5796CEF10D486EA7CD646267C /* Debug */,
+				22E417ABBE13DEB73792935EE8227EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

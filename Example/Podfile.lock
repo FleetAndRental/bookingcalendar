@@ -1,0 +1,31 @@
+PODS:
+  - BookingCalendar (0.1.0):
+    - PromiseKit (~> 8.2.0)
+  - PromiseKit (8.2.0):
+    - PromiseKit/CorePromise (= 8.2.0)
+    - PromiseKit/Foundation (= 8.2.0)
+    - PromiseKit/UIKit (= 8.2.0)
+  - PromiseKit/CorePromise (8.2.0)
+  - PromiseKit/Foundation (8.2.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (8.2.0):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - BookingCalendar (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - PromiseKit
+
+EXTERNAL SOURCES:
+  BookingCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BookingCalendar: 6f9938a58881ea5cf0fc7c40ba4dd98fab6f5eea
+  PromiseKit: 74e6ab5894856b4762fef547055c809bca91d440
+
+PODFILE CHECKSUM: a0f5a17762ac3f67e998ae0256a9cc98789da0f3
+
+COCOAPODS: 1.12.1

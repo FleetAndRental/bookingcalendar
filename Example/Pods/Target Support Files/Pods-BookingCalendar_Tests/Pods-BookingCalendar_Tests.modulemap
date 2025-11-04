@@ -1,0 +1,6 @@
+framework module Pods_BookingCalendar_Tests {
+  umbrella header "Pods-BookingCalendar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
